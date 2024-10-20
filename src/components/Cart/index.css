@@ -1,0 +1,82 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+.remove-all-box {
+  display: flex;
+  justify-content: flex-end;
+}
+.remove-all-button {
+  color: #0b69ff;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.order-list {
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: flex-end;
+}
+.order-details {
+  width: 300px;
+  padding: 10px;
+}
+.total-amount-card {
+  display: flex;
+}
+.checkout-button {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+  width: 250px;
+}
+.heading1 {
+  font-size: 20px;
+  align-self: center;
+}
+.text-color {
+  color: #616e7c;
+}
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
